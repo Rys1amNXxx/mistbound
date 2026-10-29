@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "hunter_crossbow"
+display_name = "猎人手弩"
+description = "远程手弩：基础伤害 18，攻击间隔 0.60 秒，射程 620，弹速 760。弩箭击中第一个目标后消失。"
+color = Color(0.65, 0.86, 0.54, 1)
+slot = "weapon"
+weapon_kind = "projectile"
+base_damage = 18.0
+attack_interval = 0.60
+attack_range = 620.0
+projectile_speed = 760.0

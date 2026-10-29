@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "ember_relic"
+display_name = "余烬遗物"
+description = "武器命中后点燃目标：每 0.5 秒造成 4 点伤害，持续 3 秒。再次命中刷新持续时间，同一目标不叠加燃烧。"
+damage_bonus = 0.0
+color = Color(1, 0.57, 0.24, 1)
+slot = "relic"
+effect_id = "burn"

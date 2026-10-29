@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "storm_relic"
+display_name = "风暴遗物"
+description = "每第 3 次武器命中触发连锁：当前目标及附近最多 2 名敌人，各受到 12 点额外伤害。"
+damage_bonus = 0.0
+color = Color(0.43, 0.78, 1, 1)
+slot = "relic"
+effect_id = "chain"

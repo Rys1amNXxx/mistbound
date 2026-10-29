@@ -1,0 +1,30 @@
+; Godot 4 project. Import this file in Godot and press F6/F5.
+config_version=5
+
+[application]
+config/name="Mistbound · 雾境寻宝者"
+config/version="0.2.0"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+config/description="A small cooperative exploration RPG framework."
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/size/window_width_override=1280
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.035, 0.06, 0.07, 1)
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[physics]
+common/physics_ticks_per_second=60
+
+[layer_names]
+2d_physics/layer_1="World"
+2d_physics/layer_2="Players"
+2d_physics/layer_3="Enemies"
